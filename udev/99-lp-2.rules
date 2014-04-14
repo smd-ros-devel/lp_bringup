@@ -1,2 +1,2 @@
-ACTION=="add",SUBSYSTEM=="tty",KERNELS=="exynos4210-uart.2",SYMLINK+="robot/motor_controller",MODE="0666"
+ACTION=="add",SUBSYSTEM=="tty",KERNELS=="exynos4210-uart.0",SYMLINK+="robot/motor_controller",MODE="0666"
 
